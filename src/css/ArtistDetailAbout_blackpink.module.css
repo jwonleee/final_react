@@ -1,0 +1,53 @@
+* { margin: 0; padding:0;   list-style: none; box-sizing: border-box; color: inherit; text-decoration: none; }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap'); 
+
+
+.artistAboutBox {
+
+    display: inline;
+   
+}
+
+.artistAbout{
+    padding-top: 40px;
+ 
+}
+
+.artistProfile1{
+   
+    flex-direction: column;
+    display: inline-block;
+}
+
+.artistProfile1 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.artistProfile1 .artistProfile1_content {
+  margin-top: 33px;
+  line-height: 40px;
+}
+
+.artistProfile1 img {
+    border-radius: 50%;
+    box-shadow: 1px 1px 6px 2px rgba(128, 128, 128, 0.642);
+}
+
+.artistProfile1_content h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    color: rgb(252, 128, 167);
+    font-size: 20px;
+
+}
+
+
+.artistProfile1_content span{
+    font-family: 'Song Myung', serif;
+    font-size: 18px;
+
+}

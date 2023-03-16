@@ -1,0 +1,30 @@
+* {margin: 0; padding:0;   list-style: none; box-sizing: border-box; color: inherit; text-decoration: none;}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+
+
+
+.logo_name{
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+}
+.company_tab{
+    text-align: center;
+    display: inline;
+
+}
+
+
+
+.company_tab ul >a>li {
+    display: inline-block;
+    margin: 0 30px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}

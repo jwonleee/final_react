@@ -1,0 +1,46 @@
+* { margin: 0; padding:0;   list-style: none; box-sizing: border-box; color: inherit; text-decoration: none; }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap'); 
+
+.instargram_con{
+    display: flex;
+    flex-direction: row;
+}
+
+.instargram_con span{
+    flex-basis: 33%;
+}
+
+
+.instargram_follow{
+    padding: 6px 17px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: 17px;
+    border-radius: 8px;
+    background-color:rgba(220, 220, 220, 0.64) ;
+ 
+    
+}
+.instargram_follow:hover{
+    background-color: rgba(32, 34, 35, 0.304);
+
+}
+
+.instargram_img{
+    width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.instargram_img div{
+    flex-basis: 33%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}

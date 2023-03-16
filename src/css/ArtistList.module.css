@@ -1,0 +1,195 @@
+* {margin: 0; padding:0;   list-style: none; box-sizing: border-box; color: inherit; text-decoration: none; color: rgba(0, 0, 0, 0.829)}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+.newPicture{
+
+    position: relative;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+   
+   
+}
+
+.artistImg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* li태그(아티스트 사진 감싸주는 태그) */
+
+.artistImg3{
+    position: relative;
+
+}
+/* li태그에 호버 주면 아티스트 이름 박스 나옴 */
+.artistImg3:hover .artistNameBox3 {
+    opacity: 1;
+}
+
+
+/* 아티스트 이름 박스 */
+.artistNameBox3{
+    width:820px;
+    height: 500px;
+    position:absolute;
+    background-color: rgba(99, 181, 253, 0.444);
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    top: 0;
+    left: 10;
+}
+
+/* 아티스트 이름 */
+.artistName3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    color:rgb(247, 251, 255);
+    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+    transition: all 0.2s linear;
+    
+}
+
+/* -------------배우사진 - 크기가 달라서 따로 줌------------------ */
+.artistImg1:hover .artistNameBox1 {
+    opacity: 1;
+}
+
+.artistImg1{
+    position: relative;
+}
+/* 아티스트 이름 박스 */
+.artistNameBox1{
+    width:800px;
+    height: 500px;
+    position:absolute;
+    background-color: rgba(99, 181, 253, 0.447);
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    top: 0;
+    left: 10;
+}
+
+/* 아티스트 이름 */
+.artistName1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    color:rgb(247, 251, 255);
+    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+    transition: all 0.2s linear;
+    
+}
+
+/*---------- 여기서부터 개인사진 ----------- */
+
+
+.personnelImg_ive {
+    display: inline-block;
+    position: relative;
+}
+
+
+.personnelImg_list{
+ overflow: hidden;
+
+}
+
+.personnelImg{
+   width: 140px;
+   height: 150px;
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ 
+   position: relative;
+}
+
+.personnelImg:hover .artistNameBox2 {
+    opacity: 1;
+}
+
+
+/* 아티스트 이름 박스 */
+.artistNameBox2{
+    width:140px;
+    height: 150px;
+    position:absolute;
+    background-color: rgba(99, 181, 253, 0.447);
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    top: 0;
+    left: 10;
+}
+
+/* 아티스트 이름 */
+.artistName2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    color:rgb(247, 251, 255);
+    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+    transition: all 0.2s linear;
+    
+}
+
+/*  아이브  */
+
+.personnelImg_ive{
+    width: 170px;
+    height: 180px;
+     margin: 15px;
+  
+    position: relative;
+}
+
+.personnelImg_ive:hover .artistNameBox_ive {
+    opacity: 1;
+}
+
+
+.artistNameBox_ive{
+    width: 170px;
+    height: 180px;
+    position:absolute;
+    background-color: rgba(99, 181, 253, 0.447);
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    top: 0;
+    left: 10;
+}
+
+
+
+
+
+.artistName_ive{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    color:rgb(247, 251, 255);
+    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+    transition: all 0.2s linear;
+    
+}

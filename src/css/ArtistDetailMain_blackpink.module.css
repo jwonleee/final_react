@@ -1,0 +1,55 @@
+* { margin: 0; padding:0;   list-style: none; box-sizing: border-box; color: inherit; text-decoration: none; color: black}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap'); /*궁서체 - 블핑 컨텐트용*/
+
+.detailMain_content1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding-top: 100px;
+   background-color: rgb(249, 245, 248);
+   width: 1200px;
+  
+}
+
+
+.detailMain_content2{
+   font-family: 'Noto Serif KR', serif;
+   font-size: 19px;
+   margin-top: 100px;
+   line-height: 38px;
+
+}
+
+.albumlist{
+   padding: 20px 0;
+  
+}
+
+.albumlist h3{
+   font-family: 'Noto Serif KR', serif;
+   font-weight: 800;
+   margin-bottom: 10px;
+  
+}
+
+.albumlist h3 >p{
+   background-color: rgba(255, 177, 190, 0.851);
+   width: 90px;
+   padding:  2px 9px;
+   margin-left: 7px;
+   font-weight: 800;
+   color: rgb(252, 252, 250);
+   display: inline;
+   text-align: center;
+  
+
+}
+.albumlist span{
+   font-family: 'Noto Serif KR', serif;
+   line-height: 33px;
+}
