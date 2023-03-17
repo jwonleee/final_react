@@ -6,7 +6,7 @@ const ArtistHome = () => {
 
     return(
         <>
-        <section style={{marginTop:'200px'}}>
+        <section style={{marginTop:'75px'}}>
             <div className={styled.artistTab} >
                 <h3 className={styled.artistTitle}>Artist</h3>
                 <ul className={styled.artistCotent}   >

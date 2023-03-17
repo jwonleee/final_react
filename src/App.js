@@ -45,23 +45,30 @@ import ArtistDetailAbout_csb from './artist/csb/ArtistDetailAbout_csb';
 import ArtistDetailMag_csb from './artist/csb/ArtistDetailMag_csb';
 import ArtistDetailMag_content_csb from './artist/csb/ArtistDetailMag_content_csb';
 import ArtistDetailSchedule_csb from './artist/csb/ArtistDetailSchedule_csb';
+import Home from './Home';
+import Header from './Header';
 
 function App() {
+
   return (
   
     <Routes>
+      
+      <Route element={<Header/>}> {/* 가짜 헤더 */}
+
        {/* 회사 소개 페이지 */}
-            <Route path='/tab' element={<Tab/>}/>
-            <Route path='/about' element={<About_Y4J/>}/>
-            <Route path='/history' element={<Y4J_history/>}/>
-            <Route path='/contact' element={<Y4J_contact/>}/>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/tab' element={<Tab/>}/>
+          <Route path='/about' element={<About_Y4J/>}/>
+          <Route path='/history' element={<Y4J_history/>}/>
+          <Route path='/contact' element={<Y4J_contact/>}/>
 
          {/* 아티스트 소개 페이지   */}
           <Route path='/artist' element={<ArtistHome/>}>
     
-            <Route path='/artist/artistList' element={<ArtistList/>}></Route>
+              <Route path='/artist/artistList' element={<ArtistList/>}></Route>
             
-            
+
             {/* 블핑 게시판 */}
               <Route path='/artist/bp/artistDetailBp' element={<ArtistDetailBp/>}>
                 <Route path='/artist/bp/artistDetailBp/mainBp' element={<ArtistDetailMainBp/>}>
@@ -105,7 +112,7 @@ function App() {
          
      
         {/* 이도현 게시판 */}
-        <Route path='/artist/ldh/artistDetail_ldh' element={<ArtistDetail_ldh/>}>
+          <Route path='/artist/ldh/artistDetail_ldh' element={<ArtistDetail_ldh/>}>
               <Route path='/artist/ldh/artistDetail_ldh/main_ldh' element={<ArtistDetailMain_ldh/>}></Route>
             
               <Route path='/artist/ldh/artistDetail_ldh/about_ldh' element={<ArtistDetailAbout_ldh/>}></Route>
@@ -129,8 +136,9 @@ function App() {
 
               <Route path='/artist/csb/artistDetail_csb/schedule_csb' element={<ArtistDetailSchedule_csb/>}></Route>
           </Route>
-      </Route>
+        </Route>
           
+      </Route> {/* 헤더 끝 */}
     </Routes>
 
   );
