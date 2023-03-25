@@ -8,7 +8,7 @@ const Tab = () => {
         <Fragment>
         {/* TAB */}
             <div className={styled1.logo_name}>
-                <p>Y4J</p>
+                {/* <p>Y4J</p> */}
             </div>
             <div className={styled1.company_tab}>
                 <ul>

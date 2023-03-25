@@ -2,34 +2,8 @@ import { Fragment, useRef, useState } from "react"
 import styled4 from "../../css/ArtistDetailMain_blackpink.module.css";
 import YouTube from 'react-youtube';
 
-import { Link } from "react-router-dom";
-
-
 
 const ArtistDetailMainBp= () =>{
-
-
-    // 언어별 앨범 설명 데이터
-    // const albumContent = [
-    //     {value:'K', src:['/korean']},
-    //     {value: 'E', src:['/english'] },
-    //     {value:'C', src:['/chinese']},
-    //     {value:'J', src:['/japanese']}
-    
-    // ];
-
-    
-    // const [album, setAlbum] = useState(albumContent);
-
-  
-    // const newAlbum=  album.map((item, index)=>{
-    //     <li key={index} >
-    //         <Link to={item.src[0]}>
-    //              {item.value}
-    //         </Link>
-    //     </li>
-    // });
-  
     
     return (
         <Fragment>
@@ -88,11 +62,6 @@ const ArtistDetailMainBp= () =>{
                     <div style={{marginTop:'100px'}}>
                         <img style={{width:'400px', height:'350px', boxShadow: '3px 2px 7px 0px rgba(128, 128, 128, 0.642)'}} src="/img/blackpink_shutdown_album.jpeg"></img>
                     </div>
-                </div>
-
-                {/* 드롭다운 기능 구현 */}
-                <div style={{marginTop:'100px'}}>
-                    <span>여기 드롭다운 자리입니다!</span>
                 </div>
 
                 {/* 앨범 리스트 */}

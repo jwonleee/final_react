@@ -13,7 +13,7 @@ const ArtistDetailMain_ldh= () =>{
        
             <Fragment>
                 <div  style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
-                    <div style={{marginTop:'100px',marginRight:'70px', backgroundColor:'rgba(9, 63, 35, 0.262)', width:'900px'}}>     
+                    <div style={{marginTop:'50px', backgroundColor:'rgba(9, 63, 35, 0.262)', width:'900px'}}>     
                         <div>
                             <img src="/img/theGlory.jpeg" style={{width:'900px', height:'380px'}}></img>
                         </div>
@@ -42,7 +42,7 @@ const ArtistDetailMain_ldh= () =>{
                     <div className={styled5.ldhMain}>
                             <div style={{position:'relative'}}>
                                 <div style={{textAlign:'center'}}>
-                                    <img style={{height: '580px', width:'400px'}} src="/img/leedohyun.jpg"/>
+                                    <img style={{height: '580px', width:'400px'}} src="/img/leedohyunPoster.jpg"/>
                                 </div>
                             </div>
                         

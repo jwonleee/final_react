@@ -2,22 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Rowdies&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap'); 
 
 
 .artistAboutBox {
-
     display: inline;
-   
 }
 
 .artistAbout{
-    padding-top: 40px;
- 
+    width: 1080px;
+    margin: 0 auto;
 }
 
 .artistProfile1{
-   
     flex-direction: column;
     display: inline-block;
 }
@@ -25,6 +21,7 @@
 .artistProfile1 div{
     display: flex;
     flex-direction: column;
+    margin: 30px 65px;
 }
 
 .artistProfile1 .artistProfile1_content {
@@ -47,7 +44,7 @@
 
 
 .artistProfile1_content span{
-    font-family: 'Song Myung', serif;
-    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
 
 }

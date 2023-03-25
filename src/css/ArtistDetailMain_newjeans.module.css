@@ -7,19 +7,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap'); /*뉴진스 전용 폰트*/
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-
 
 
 .Main_nj_content{
    display: flex;
    justify-content: center;
-   width: 1200px;
    align-items: center;
    flex-direction: column;
-   
+   width: 1080px;
+   margin: auto;
    background-color: rgba(249, 245, 245, 0);
-  
 }
 
 
@@ -28,17 +25,11 @@
    font-size: 19px;
    margin-top: 100px;
    line-height: 37px;
-
- 
-
 }
 
 .albumlist_nj{
-  margin: 100px 80px;
+   margin: 100px 80px;
    line-height: 34px;
-  
-   
-  
 }
 
 .albumlist_nj h3{
@@ -46,11 +37,7 @@
    font-size: 37PX;
    font-weight: 590;
    margin-bottom: 10px;
-   
-  
 }
-
-
 
 .albumlist_nj h3 p{
    background-color: rgb(191, 232, 219);

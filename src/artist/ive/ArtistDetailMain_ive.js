@@ -2,25 +2,17 @@ import { Fragment } from "react"
 import styled5 from "../../css/ArtistDetailMain_ive.module.css";
 import YouTube from 'react-youtube';
 
-
-
 const ArtistDetailMain_ive= () =>{
-
-
 
 
     return (
         <Fragment>
-            {/* 아이브 로고 태그 */}
-           
             <div style={{display:'flex', flexDirection:'column', justifyContent:'center',alignItems:'center'}}>     
-                <div style={{textAlign:'center', margin:'70px 0'}}>
-                    <img style={{height:'450px', width:'330px'}} src="/img/ive_logo_(Black).png"/>
-                </div>
+                
                 <div className={styled5.iveMain}>
                     <div style={{position:'relative'}}>
                         <div style={{textAlign:'center'}}>
-                            <img style={{height: '650px', width:'1100px'}} src="/img/ive_all2.jpg"/>
+                            <img style={{height: '720px', width:'1100px'}} src="/img/ive_all2.jpg"/>
                         
                         </div>
                     </div>
@@ -69,9 +61,6 @@ const ArtistDetailMain_ive= () =>{
                     <div style={{marginTop:'100px'}}>
                         <img style={{width:'350px', height:'400px'}} src="/img/afterlike.jpeg"></img>
                     </div>
-                </div>
-                <div style={{marginTop:'100px', color:'white'}}>
-                    <span>~~~~~~~여기 드롭다운 자리~~~~~</span>
                 </div>
 
                 <div style={{width:'1100px', textAlign:'center', marginBottom:'100px'}}>

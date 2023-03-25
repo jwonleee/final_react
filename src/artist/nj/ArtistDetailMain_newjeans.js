@@ -1,13 +1,7 @@
-
 import styled5 from "../../css/ArtistDetailMain_newjeans.module.css";
 import YouTube from 'react-youtube';
 
-
-
 const ArtistDetailMain_newjeans= () =>{
-
-
-
 
     return (
         <>
@@ -68,13 +62,6 @@ const ArtistDetailMain_newjeans= () =>{
                         <img style={{width:'320px', height:'260px', boxShadow: '3px 2px 7px 0px rgba(128, 128, 128, 0.642)'}} src="/img/omg.jpeg"></img>
                     </div>
                 </div>
-
-                {/* 드롭다운 기능 구현 */}
-                <div style={{marginTop:'100px'}}>
-                    <span>여기 드롭다운 자리입니다!</span>
-                </div>
-
-              
 
                     {/* <div style={{marginTop:'100px', display:'flex',flexDirection:'row', justifyContent:'center', alignItems:'center'}}> */}
                    <div>

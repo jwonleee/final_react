@@ -1,12 +1,9 @@
 import { Fragment } from "react";
-import { Link, Outlet, Route } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import styled2 from "../../css/ArtistDetail_blackpink.module.css";
 
 
 const ArtistDetailBp = () => {
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap'); /* 궁서체 */
-    </style>
 
     return (
         <Fragment>
@@ -18,7 +15,7 @@ const ArtistDetailBp = () => {
                 <img style={{height:'100px'}} src="/img/Black_Pink_logo_(2).png"/>
             </div>
             <div style={{textAlign:'center', marginBottom:'30px'}}>
-                <img style={{height: '460px', width:'850px'}} src="/img/blackpink_hanbok.avif"/>
+                <img style={{height: '460px', width:'850px',  objectFit: 'cover'}} src="/img/blackpink_main.jpg"/>
             </div>
         </div>
 
@@ -26,10 +23,9 @@ const ArtistDetailBp = () => {
             <div className={styled2.detailTabWrap}>
 
                 <ul className={styled2.detailTabBox} >
-                    <Link to='mainBp'> <li style={{fontFamily:'Song Myung, serif', fontSize:'25px', color:'black'}}>메인</li></Link>
-                    <Link to='aboutBp'> <li style={{fontFamily:'Song Myung, serif', fontSize:'25px', color:'black'}}>소개</li></Link>
-                    <Link to='albumBp'><li style={{fontFamily:'Song Myung, serif' , fontSize:'25px',  color:'black'}}>앨범</li></Link>
-                    <Link to='scheduleBp'><li style={{fontFamily:'Song Myung, serif', fontSize:'25px',  color:'black'}}>스케줄</li></Link>
+                <Link to='mainBp'><li>Main</li></Link>
+                    <Link to='aboutBp'><li>Profile</li></Link>
+                    <Link to='schedule'><li>Schedule</li></Link>
                 </ul>
         
                 <Outlet/>
