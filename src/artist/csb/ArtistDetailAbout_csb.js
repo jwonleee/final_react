@@ -8,7 +8,7 @@ const ArtistDetailAbout_csb= () => {
         <>
             <div style={{overflow:'hidden', marginTop:'100px'}}>
                 <div style={{float:'left', marginLeft:'50px'}}>
-                    <img style={{width:'455px', height:'455px', boxShadow:'2px 6px 9px 0px rgb(0 0 0 / 25%)'}} src="/img/chaesoobin_profile2.jpeg"></img>
+                    <img style={{width:'455px', height:'455px', boxShadow:'2px 6px 9px 0px rgb(0 0 0 / 25%)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin_profile2.jpeg"></img>
                     <div style={{fontFamily:'Noto Sans KR, sans-serif', fontSize:'18px', marginTop:'20px', lineHeight:'30px'}}>
                         <div style={{fontFamily:'Noto Serif KR, sans-serif',fontSize:'19px', fontWeight:'900'}}>채수빈</div>
                         <div>1994. 7. 10</div>
@@ -77,13 +77,13 @@ const ArtistDetailAbout_csb= () => {
                 </div>
                 <div className={styled6.chaesoobin_img} style={{display:'flex', flexDirection:'row', justifyContent:'center', alignItems:'center'}}>
                     <div>
-                        <img style={{width:'284px', height:'244px', boxShadow:'2px 6px 9px 0px rgb(0 0 0 / 25%)'}} src="/img/chaesoobin_bluebird.jpg"></img>
+                        <img style={{width:'284px', height:'244px', boxShadow:'2px 6px 9px 0px rgb(0 0 0 / 25%)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin_bluebird.jpg"></img>
                     </div>
                     <div>
-                        <img style={{width:'284px', height:'244px', boxShadow:'2px 6px 9px 0px rgb(0 0 0 / 25%)'}} src="/img/chaesoobin_fox.jpg"></img>
+                        <img style={{width:'284px', height:'244px', boxShadow:'2px 6px 9px 0px rgb(0 0 0 / 25%)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin_fox.jpg"></img>
                     </div>
                     <div>
-                        <img style={{width:'284px', height:'244px', boxShadow:'2px 6px 9px 0px rgb(0 0 0 / 25%)'}} src="/img/chaesoobin_history.jpg"></img>
+                        <img style={{width:'284px', height:'244px', boxShadow:'2px 6px 9px 0px rgb(0 0 0 / 25%)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin_history.jpg"></img>
                     </div>
                 </div>
             </div>

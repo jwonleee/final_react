@@ -16,11 +16,11 @@ const ArtistDetailMain_csb= () =>{
              <div style={{display:'flex', justifyContent:'center', alignItems:'center', flexDirection:'column'}}>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginTop:'70px', borderBottom:'1px solid rgba(32, 34, 35, 0.204)', paddingBottom:'30px', width:'1000px'}}>
                         <div style={{ flexBasis:'22%'}}>
-                            <img  style={{borderRadius:'50%'}} src="/img/chaesoobin_profile.jpg"></img>
+                            <img  style={{borderRadius:'50%'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin_profile.jpg"></img>
                         </div>
                         <div style={{margin:'20px', flexBasis:'0'}}>
                             <div style={{display:'flex', flexDirection:'column', fontFamily:'Noto Sans KR, sans-serif'}}>
-                                <span style={{fontSize:'20px'}}>soobin <img style={{width:'18px', height:'18px', marginLeft:'5px'}} src="/img/instargram_icon.png"/> <span className={styled5.instargram_follow} > <Link to={"/artist/csb/artistDetail_csb/about_csb"} style={{textDecoration:'none', color:'black'}} >팔로우</Link> </span></span>
+                                <span style={{fontSize:'20px'}}>soobin <img style={{width:'18px', height:'18px', marginLeft:'5px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/instargram_icon.png"/> <span className={styled5.instargram_follow} > <Link to={"/artist/csb/artistDetail_csb/about_csb"} style={{textDecoration:'none', color:'black'}} >팔로우</Link> </span></span>
                                 <br/>
                                 <div className={styled5.instargram_con}>
                                      <span style={{flexBasis:'20%'}}>게시물</span>    <span>팔로워 <span style={{fontWeight:'600'}}>162.8만</span></span>   <span>팔로우 <span style={{fontWeight:'600'}}>279</span></span>
@@ -38,31 +38,31 @@ const ArtistDetailMain_csb= () =>{
 
                     <div className={styled5.instargram_img}>
                         <div>
-                           <img style={{width:'293px', height:'293px'}} src="/img/chaesoobin10.jpg"></img> 
+                           <img style={{width:'293px', height:'293px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin10.jpg"></img> 
                         </div>
                         <div>
-                            <img style={{width:'293px', height:'293px'}} src="/img/chaesoobin11.jpg"></img>
+                            <img style={{width:'293px', height:'293px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin11.jpg"></img>
                         </div>
                         <div>
-                            <img style={{width:'293px', height:'293px'}} src="/img/chaesoobin9.jpg"></img>
+                            <img style={{width:'293px', height:'293px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin9.jpg"></img>
                         </div>
                         <div>
-                            <img style={{width:'293px', height:'293px'}} src="/img/chaesoobin6.jpg"></img>
+                            <img style={{width:'293px', height:'293px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin6.jpg"></img>
                         </div>
                         <div>
-                            <img style={{width:'293px', height:'293px'}} src="/img/chaesoobin104.jpg"></img>
+                            <img style={{width:'293px', height:'293px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin104.jpg"></img>
                         </div>
                         <div>
-                            <img style={{width:'293px', height:'293px'}} src="/img/chaesoobin8.jpg"></img>
+                            <img style={{width:'293px', height:'293px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin8.jpg"></img>
                         </div>
                         <div>
-                            <img style={{width:'293px', height:'293px'}} src="/img/chaesoobin16.jpg"></img>
+                            <img style={{width:'293px', height:'293px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin16.jpg"></img>
                         </div>
                         <div>
-                            <img style={{width:'293px', height:'293px'}} src="/img/chaesoobin13.jpg"></img>
+                            <img style={{width:'293px', height:'293px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin13.jpg"></img>
                         </div>
                         <div>
-                            <img style={{width:'293px', height:'293px'}} src="/img/chaesoobin14.jpg"></img>
+                            <img style={{width:'293px', height:'293px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin14.jpg"></img>
                         </div>
                     </div>
                </div>

@@ -35,9 +35,8 @@
     padding-top: 40px;
 }
 
-/* 이거 안 먹힘 */
-.schedule_wrap .n_right .sch_cont .sch_detail{
-    text-align: left;
+.sch_detail{
+    text-align: right !important;
     padding-left: 100px;
     margin-top: 20px;
 }
@@ -52,7 +51,6 @@
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
 }
-
 
 
 

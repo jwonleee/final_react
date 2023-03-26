@@ -19,7 +19,7 @@ const ArtistDetail_ldh = () => {
                 <ul className={styled2.detailTabBox} >
                     <Link to='main_ldh'><li>Main</li></Link>
                     <Link to='about_ldh'><li>Profile</li></Link>
-                    <Link to='schedule'><li>Schedule</li></Link>
+                    <Link to='schedule_ldh'><li>Schedule</li></Link>
                 </ul>
         
                 <Outlet/>

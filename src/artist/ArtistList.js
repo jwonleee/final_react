@@ -7,21 +7,21 @@ const ArtistList = () => {
     // 개인 사진
     const photo_personnel = [
    
-        {info1:'nj', src:'/img/minji.jpeg', name:'MinJi', info:'solo'},
-        {info1:'nj', src:'/img/hanni.jpeg', name:'Hanni', info:'solo'},
-        {info1:'nj', src:'/img/Hyein.jpeg', name:'HyeIn', info:'solo'},
-        {info1:'nj', src:'/img/danielle.jpeg', name:'Danielle', info:'solo'},
-        {info1:'nj', src:'/img/Haerin.jpeg', name:'HaeRin', info:'solo'},
-        {info1:'bp', src:'/img/jisoo.jpeg', name:'JiSoo', info:'solo'},
-        {info1:'bp', src:'/img/jennie.jpeg', name:'Jennie', info:'solo'},
-        {info1:'bp', src:'/img/lisa.jpeg', name:'Lisa', info:'solo'},
-        {info1:'bp', src:'/img/rose.jpeg', name:'Rose', info:'solo'},
-        {info1:'ive1', src:'/img/AnYujin.webp', name:'An Yu-jin', info:'solo'},
-        {info1:'ive1', src:'/img/Jangwonyoung.webp', name:'Jang Won-young', info:'solo'},
-        {info1:'ive1', src:'/img/Liz.webp', name:'Liz', info:'solo'},
-        {info1:'ive1', src:'/img/Rei.webp', name:'Rei', info:'solo'},
-        {info1:'ive2', src:'/img/Leeseo.webp', name:'Leeseo', info:'solo'},
-        {info1:'ive2', src:'/img/Gaeul.webp', name:'Gaeul', info:'solo'}
+        {info1:'nj', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/minji.jpeg', name:'MinJi', info:'solo'},
+        {info1:'nj', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/hanni.jpeg', name:'Hanni', info:'solo'},
+        {info1:'nj', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/Hyein.jpeg', name:'HyeIn', info:'solo'},
+        {info1:'nj', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/danielle.jpeg', name:'Danielle', info:'solo'},
+        {info1:'nj', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/Haerin.jpeg', name:'HaeRin', info:'solo'},
+        {info1:'bp', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/jisoo.jpeg', name:'JiSoo', info:'solo'},
+        {info1:'bp', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/jennie.jpeg', name:'Jennie', info:'solo'},
+        {info1:'bp', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/lisa.jpeg', name:'Lisa', info:'solo'},
+        {info1:'bp', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/rose.jpeg', name:'Rose', info:'solo'},
+        {info1:'ive1', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/AnYujin.webp', name:'An Yu-jin', info:'solo'},
+        {info1:'ive1', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/Jangwonyoung.webp', name:'Jang Won-young', info:'solo'},
+        {info1:'ive1', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/Liz.webp', name:'Liz', info:'solo'},
+        {info1:'ive1', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/Rei.webp', name:'Rei', info:'solo'},
+        {info1:'ive2', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/Leeseo.webp', name:'Leeseo', info:'solo'},
+        {info1:'ive2', src:'https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/Gaeul.webp', name:'Gaeul', info:'solo'}
     ];
 
     const [picture, setPicture] = useState(photo_personnel);
@@ -100,7 +100,7 @@ const ArtistList = () => {
                         <div>
                             <div style={{padding: '0 15px', width:'820px', height:'500px'}}  >
                                 <Link to='/artist/nj/artistDetail_newjeans/main_nj'>
-                                    <img style={{width:'820px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="/img/newjeans_all.jpeg"/>
+                                    <img style={{width:'820px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/newjeans_all.jpeg"/>
                             <div className={styled1.artistNameBox3}>
                                 <span className={styled1.artistName3}>
                                     Newjeans
@@ -123,7 +123,7 @@ const ArtistList = () => {
                     <div className={styled1.artistImg3} >
                         <div style={{padding: '0 15px',width:'820px', height:'500px'}}  >
                             <Link to='/artist/ive/artistDetail_ive/main_ive'>
-                                <img style={{width:'820px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="/img/ive_all.jpeg"/>
+                                <img style={{width:'820px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/ive_all.jpeg"/>
                         <div className={styled1.artistNameBox3}>
                             <span className={styled1.artistName3}>
                                 IVE
@@ -153,7 +153,7 @@ const ArtistList = () => {
                     <div className={styled1.artistImg3} >
                         <div style={{padding: '0 15px', width:'820px', height:'500px'}}  >
                             <Link to='/artist/bp/artistDetail_Bp/mainBp'>
-                                <img style={{width:'820px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="/img/blackpink_all.jpeg"/>
+                                <img style={{width:'820px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/blackpink_all.jpeg"/>
                         <div className={styled1.artistNameBox3}>
                             <span className={styled1.artistName3}>
                                 Black Pink
@@ -173,7 +173,7 @@ const ArtistList = () => {
                     <div className={styled1.artistImg1} >
                         <div style={{padding: '0 15px', width:'800px', height:'500px'}}  >
                             <Link to='/artist/ldh/artistDetail_ldh/main_ldh'>
-                                <img style={{width:'800px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="/img/leedohyun.jpg"/>
+                                <img style={{width:'800px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun.jpg"/>
                         <div className={styled1.artistNameBox1}>
                             <span className={styled1.artistName1}>
                                 Lee Do-hyan
@@ -187,7 +187,7 @@ const ArtistList = () => {
                     <div className={styled1.artistImg1} >
                         <div style={{padding: '0 15px', width:'800px', height:'500px'}}  >
                             <Link to='/artist/csb/artistDetail_csb/main_csb'>
-                                <img style={{width:'800px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="/img/chaesoobin.jpg"/>
+                                <img style={{width:'800px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin.jpg"/>
                         <div className={styled1.artistNameBox1}>
                             <span className={styled1.artistName1}>
                                 Chae Soo-bin

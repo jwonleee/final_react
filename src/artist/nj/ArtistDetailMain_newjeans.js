@@ -8,7 +8,7 @@ const ArtistDetailMain_newjeans= () =>{
             {/* 뉴진스 로고 태그 */}
             <div className={styled5.Main_nj_content}>
                 <div style={{marginBottom:' 40px'}}>
-                    <img style={{width:'900px', height:'500px'}} src="/img/newjeans_logo.jpg" alt="뉴진스 로고"></img>
+                    <img style={{width:'900px', height:'500px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/newjeans_logo.jpg" alt="뉴진스 로고"></img>
                 </div>
               
                {/* 뉴진스 뮤비 영상 태그 */}
@@ -58,8 +58,8 @@ const ArtistDetailMain_newjeans= () =>{
 
                 <div>
                     <div style={{marginTop:'100px'}}>
-                        <img style={{width:'320px', height:'260px', boxShadow: '3px 2px 7px 0px rgba(128, 128, 128, 0.642)',marginRight:'50px'}} src="/img/ditto.jpeg"></img>
-                        <img style={{width:'320px', height:'260px', boxShadow: '3px 2px 7px 0px rgba(128, 128, 128, 0.642)'}} src="/img/omg.jpeg"></img>
+                        <img style={{width:'320px', height:'260px', boxShadow: '3px 2px 7px 0px rgba(128, 128, 128, 0.642)',marginRight:'50px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/ditto.jpeg"></img>
+                        <img style={{width:'320px', height:'260px', boxShadow: '3px 2px 7px 0px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/omg.jpeg"></img>
                     </div>
                 </div>
 
@@ -88,7 +88,7 @@ const ArtistDetailMain_newjeans= () =>{
 
             {/* 앨범 소개 사진 */}
             <div>
-                <img src="/img/newjeans_content.png"></img>
+                <img src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/newjeans_content.png"></img>
             </div>
            
     </div>

@@ -17,7 +17,7 @@ const ArtistDetail_csb = () => {
                 <ul className={styled2.detailTabBox} >
                     <Link to='main_csb'><li>Main</li></Link>
                     <Link to='about_csb'><li>Profile</li></Link>
-                    <Link to='schedule'><li>Schedule</li></Link>
+                    <Link to='schedule_csb'><li>Schedule</li></Link>
                 </ul>
         
                 <Outlet/>

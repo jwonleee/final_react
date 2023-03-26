@@ -12,7 +12,7 @@ const ArtistDetailAbout_ldh= () => {
                 <div className={styled6.artistAboutLee}>
                     <div className={styled6.artist_img_shadow} ></div>
                     <div className={styled6.artist_img_box} >
-                        <img style={{height:'580px', width:'440px'}} src="/img/leedohyun4.jpg"/>
+                        <img style={{height:'580px', width:'440px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun4.jpg"/>
                     </div>
                 </div>
                 {/* 이도현 활동내역 */}
@@ -56,36 +56,36 @@ const ArtistDetailAbout_ldh= () => {
                         {/* 갤러리 1단 */}
                         <div style={{display:'flex', flexDirection:'row'}}>
                             <div>
-                                <img style={{width:'250px', height:'320px'}} src="/img/leedohyun8.jpg"></img>
+                                <img style={{width:'250px', height:'320px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun8.jpg"></img>
                                 <span className={styled6.gallery_plus}>
                                 </span>
                             </div>
                             <div>
-                                <img  style={{width:'250px', height:'320px'}} src="/img/leedohyun7.jpg"></img>
+                                <img  style={{width:'250px', height:'320px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun7.jpg"></img>
                             </div>
                             <div>
-                                <img  style={{width:'250px', height:'320px'}} src="/img/leedohyun10.jpg"></img> 
+                                <img  style={{width:'250px', height:'320px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun10.jpg"></img> 
                             </div>
                         </div>
                         {/* 갤러리 2단 */}
                         <div style={{display:'flex', flexDirection:'row'}}>
                             <div>
-                                <img style={{width:'250px', height:'320px'}} src="/img/leedohyun13.jpg"></img>
+                                <img style={{width:'250px', height:'320px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun13.jpg"></img>
                             </div>
                             <div>
-                                <img  style={{width:'250px', height:'320px'}} src="/img/leedohyun12.jpg"></img>
+                                <img  style={{width:'250px', height:'320px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun12.jpg"></img>
                             </div>
                             <div>
-                                <img  style={{width:'250px', height:'320px'}} src="/img/leedohyun11.jpg"></img> 
+                                <img  style={{width:'250px', height:'320px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun11.jpg"></img> 
                             </div>
                         </div>
                         {/* 갤러리 3단 */}
                         <div style={{display:'flex', flexDirection:'row'}}>
                             <div>
-                                <img style={{width:'385px', height:'280px'}} src="/img/leedohyun15.jpg"></img>
+                                <img style={{width:'385px', height:'280px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun15.jpg"></img>
                             </div>
                             <div>
-                                <img  style={{width:'385px', height:'280px'}} src="/img/leedohyun16.jpg"></img>
+                                <img  style={{width:'385px', height:'280px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun16.jpg"></img>
                             </div>
                             
                         </div>
@@ -97,7 +97,7 @@ const ArtistDetailAbout_ldh= () => {
             <div style={{display:'flex', marginTop:'30px', flexDirection:'column', marginBottom:'60px'}}>
                 <div style={{display:'flex', marginTop:'60px', flexDirection:'row'}}>
                     <div style={{display:'flex', flexDirection:'column'}}>
-                        <img style={{width:'630px', height:'410px'}} src="/img/leedohyun_sexy.gif"/>
+                        <img style={{width:'630px', height:'410px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun_sexy.gif"/>
                         <span style={{textAlign:'center', width:'630px', height:'50px', lineHeight:'50px', backgroundColor:'rgba(124, 64, 10, 0.268)', fontFamily:'Noto Serif KR, serif', fontSize:'16px', fontWeight:'400' }}>오월의 청춘 - 황희태역</span>
                     </div>
                     <div>
@@ -150,7 +150,7 @@ const ArtistDetailAbout_ldh= () => {
 
           
                 {/* <div>
-                     <img style={{height:'590px', width:'450px'}} src="/img/leedohyun7.jpg"/>
+                     <img style={{height:'590px', width:'450px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun7.jpg"/>
                 </div> */}
 
         </>

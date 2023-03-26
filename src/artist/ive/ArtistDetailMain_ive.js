@@ -12,7 +12,7 @@ const ArtistDetailMain_ive= () =>{
                 <div className={styled5.iveMain}>
                     <div style={{position:'relative'}}>
                         <div style={{textAlign:'center'}}>
-                            <img style={{height: '720px', width:'1100px'}} src="/img/ive_all2.jpg"/>
+                            <img style={{height: '720px', width:'1100px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/ive_all2.jpg"/>
                         
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const ArtistDetailMain_ive= () =>{
 
                 <div>
                     <div style={{marginTop:'100px'}}>
-                        <img style={{width:'350px', height:'400px'}} src="/img/afterlike.jpeg"></img>
+                        <img style={{width:'350px', height:'400px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/afterlike.jpeg"></img>
                     </div>
                 </div>
 
@@ -102,7 +102,7 @@ const ArtistDetailMain_ive= () =>{
                             <li style={{padding:'10px 20px 20px 30px', marginBottom:'20px', display:'flex', flexDirection:'row'}}>
                                 <div style={{color:"white", flexBasis:'33.3%'}}>
                                         <div>
-                                            <img style={{width:'100px', height:'75px', paddingBottom:'7px'}} src="/img/melon_logo.png"></img>
+                                            <img style={{width:'100px', height:'75px', paddingBottom:'7px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/melon_logo.png"></img>
                                         </div>
                                         <div style={{ display:'flex', flexDirection:'column', lineHeight:'30px'}}>
 
@@ -121,7 +121,7 @@ const ArtistDetailMain_ive= () =>{
                                 <div  style={{color:"white", flexBasis:'33%', display:'flex', flexDirection:'column', justifyContent:'center'}}>
                                    
                                         <div>
-                                            <img style={{width:'100px', height:'33.3px', marginBottom:'22px'}} src="/img/genie_logo.png"></img>
+                                            <img style={{width:'100px', height:'33.3px', marginBottom:'22px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/genie_logo.png"></img>
                                         </div>
                                         <div style={{ display:'flex', flexDirection:'column', lineHeight:'30px'}}>
                                             <span style={{color:"white", fontFamily:'Noto Serif KR, serif', fontSize:'18px'}}>실시간 차트</span>
@@ -138,7 +138,7 @@ const ArtistDetailMain_ive= () =>{
                                 {/* 벅스 */}
                                 <div style={{color:"white", flexBasis:'33.3%', display:'flex', flexDirection:'column', paddingTop:'12px', marginRight:'15px'}}>
                              
-                                        <div><img style={{width:'93px', height:'65px', marginBottom:'3px'}} src="/img/bugs_logo.png"></img></div>
+                                        <div><img style={{width:'93px', height:'65px', marginBottom:'3px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/bugs_logo.png"></img></div>
                                         <div style={{ display:'flex', flexDirection:'column', lineHeight:'30px'}}>
                                             <span style={{color:"white", fontFamily:'Noto Serif KR, serif', fontSize:'18px'}}>실시간 차트</span>
                                             <span style={{color:"white", fontFamily:'Noto Serif KR, serif', fontSize:'18px'}}>일간 차트</span>

@@ -10,7 +10,7 @@ const ArtistDetailMainBp= () =>{
             {/* 블핑 셧다운 로고 태그 */}
             <div className={styled4.detailMain_content1}>
                 <div style={{marginBottom:' 100px'}}>
-                    <img style={{width:'800px', height:'600px'}} src="/img/blackpink_shutdown_logo.png" alt="블랙핑크 셧다운 로고"></img>
+                    <img style={{width:'800px', height:'600px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/blackpink_shutdown_logo.png" alt="블랙핑크 셧다운 로고"></img>
                 </div>
               
                {/* 블랙핑크 뮤비 영상 태그 */}
@@ -60,7 +60,7 @@ const ArtistDetailMainBp= () =>{
 
                 <div>
                     <div style={{marginTop:'100px'}}>
-                        <img style={{width:'400px', height:'350px', boxShadow: '3px 2px 7px 0px rgba(128, 128, 128, 0.642)'}} src="/img/blackpink_shutdown_album.jpeg"></img>
+                        <img style={{width:'400px', height:'350px', boxShadow: '3px 2px 7px 0px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/blackpink_shutdown_album.jpeg"></img>
                     </div>
                 </div>
 

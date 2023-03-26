@@ -15,7 +15,7 @@ const ArtistDetailMain_ldh= () =>{
                 <div  style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
                     <div style={{marginTop:'50px', backgroundColor:'rgba(9, 63, 35, 0.262)', width:'900px'}}>     
                         <div>
-                            <img src="/img/theGlory.jpeg" style={{width:'900px', height:'380px'}}></img>
+                            <img src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/theGlory.jpeg" style={{width:'900px', height:'380px'}}></img>
                         </div>
                     {/* 이도현 더 글로리 메인 예고편 영상 태그 */}
                         <div style={{ width:'900px', height:'500px'}}>
@@ -42,7 +42,7 @@ const ArtistDetailMain_ldh= () =>{
                     <div className={styled5.ldhMain}>
                             <div style={{position:'relative'}}>
                                 <div style={{textAlign:'center'}}>
-                                    <img style={{height: '580px', width:'400px'}} src="/img/leedohyunPoster.jpg"/>
+                                    <img style={{height: '580px', width:'400px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyunPoster.jpg"/>
                                 </div>
                             </div>
                         
@@ -76,7 +76,7 @@ const ArtistDetailMain_ldh= () =>{
                     {/* 더글로리 이도현 역할 설명 */}
                     <div>
                         <div style={{display:'flex', justifyContent:'center', alignItems:'center',flexDirection:'column'}}>
-                            <img src="/img/leedohyun_theglory.gif" style={{width:'600px', height:'350px'}}></img>
+                            <img src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun_theglory.gif" style={{width:'600px', height:'350px'}}></img>
                             <span style={{marginTop:'20px ', fontWeight:'700', fontFamily:'Noto Serif KR, serif'}}>더 글로리 장면 中 </span>
                         </div>
                         <div>
