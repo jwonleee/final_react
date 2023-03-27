@@ -1,4 +1,3 @@
-import { useCallback, useEffect, useState } from "react";
 import Pagination from "react-js-pagination";
 import styled from "./css/Paging.module.css";
 

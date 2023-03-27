@@ -16,16 +16,16 @@ const About_Y4J = () => {
             
             {/* Y4J 로고 넣기 */}
             <div className={styled.logo}>
-                <img style={{width:'320px', height: '220px'}} src='/logo/y4j_logo.png'></img>
+                <img style={{width:'320px', height: '220px'}} src='https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/y4j_logo.png'></img>
             </div>
 
                    
             <div className={styled.imgList}>
                 <ul>
                     
-                <li><img style={{width:'240px', height:'180px'}} src='/artists_img/newjeans.jpg'/></li>
-                <li><img style={{width:'240px', height:'180px'}} src='/artists_img/IVE.jpg'/></li>
-                <li><img style={{width:'240px', height:'180px'}} src='/artists_img/BlackPink.jpg'/></li>
+                <li><img style={{width:'240px', height:'180px'}} src='https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/newjeans.jpg'/></li>
+                <li><img style={{width:'240px', height:'180px'}} src='https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/IVE.jpg'/></li>
+                <li><img style={{width:'240px', height:'180px'}} src='https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/BlackPink.jpg'/></li>
                 </ul>
             </div>
 

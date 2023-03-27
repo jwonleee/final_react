@@ -42,7 +42,7 @@ const Y4J_history = () => {
 
                 <div className={styled2.historyList}>
                     <div>
-                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 3px 0.7px  rgba(73, 71, 71, 0.599)'}} src="/artists_img/blackpink_pinkvenom1.jpeg"></img>
+                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 3px 0.7px  rgba(73, 71, 71, 0.599)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/blackpink_pinkvenom1.jpeg"></img>
                 
                     </div>
 
@@ -62,7 +62,7 @@ const Y4J_history = () => {
 
                 <div className={styled2.historyList}>
                     <div>
-                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 0px 0.7px  rgba(73, 71, 71, 0.599)'}} src="/artists_img/blackpink_pinkvenom2.jpeg"></img>
+                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 0px 0.7px  rgba(73, 71, 71, 0.599)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/blackpink_pinkvenom2.jpeg"></img>
                 
                     </div>
 
@@ -92,7 +92,7 @@ const Y4J_history = () => {
            <div className={styled2.historyBox1}>
                 <div className={styled2.historyList}>
                     <div>
-                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 2px 0.7px  rgba(73, 71, 71, 0.599)'}} src="/artists_img/afterlike4.svg"></img>
+                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 2px 0.7px  rgba(73, 71, 71, 0.599)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/afterlike4.svg"></img>
                 
                     </div>
 
@@ -113,7 +113,7 @@ const Y4J_history = () => {
 
                 <div className={styled2.historyList}>
                     <div>
-                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 2px 0.7px  rgba(73, 71, 71, 0.599)'}} src="/artists_img/blackpink_shutdown.jpeg"></img>
+                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 2px 0.7px  rgba(73, 71, 71, 0.599)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/blackpink_shutdown.jpeg"></img>
                 
                     </div>
 
@@ -133,7 +133,7 @@ const Y4J_history = () => {
 
                 <div className={styled2.historyList}>
                     <div>
-                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 3px 0.7px  rgba(73, 71, 71, 0.599)'}} src="/artists_img/ditto.jpeg"></img>
+                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 3px 0.7px  rgba(73, 71, 71, 0.599)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/ditto.jpeg"></img>
                 
                     </div>
 
@@ -163,7 +163,7 @@ const Y4J_history = () => {
 
                 <div className={styled2.historyList}>
                     <div>
-                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 2px 0.7px  rgba(73, 71, 71, 0.599)'}} src="/artists_img/soobin_drama.jpg"></img>
+                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 2px 0.7px  rgba(73, 71, 71, 0.599)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/soobin_drama.jpg"></img>
                 
                     </div>
 
@@ -183,7 +183,7 @@ const Y4J_history = () => {
 
                 <div className={styled2.historyList}>
                     <div>
-                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 0px 0.7px  rgba(73, 71, 71, 0.599)'}} src="/artists_img/omg.jpeg"></img>
+                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 0px 0.7px  rgba(73, 71, 71, 0.599)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/omg.jpeg"></img>
                 
                     </div>
 
@@ -204,7 +204,7 @@ const Y4J_history = () => {
 
                 <div className={styled2.historyList}>
                     <div>
-                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 3px 0.7px  rgba(73, 71, 71, 0.599)'}} src="/artists_img/soobin.jpeg"></img>
+                      <img style={{width:'220px', height:'280px', boxShadow:'0.5px 0.5px 3px 0.7px  rgba(73, 71, 71, 0.599)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/soobin.jpeg"></img>
                 
                     </div>
 

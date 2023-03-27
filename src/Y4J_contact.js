@@ -46,7 +46,7 @@ const Y4J_contact = () => {
                     <div>
                     <p className={styled1.companyContent1} >
                         <p>
-                            <img style={{width:'14px', height:'16px', marginRight:'10px'}} src="/flaticon_img/map.png"/>
+                            <img style={{width:'14px', height:'16px', marginRight:'10px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/map.png"/>
                         </p>
                     
                             서울시 강남구 테헤란로 7길 7 (역삼동 에스코빌딩 6층) <br/>
@@ -59,7 +59,7 @@ const Y4J_contact = () => {
 
                     <div style={{display:'flex', flexDirection:'row'}}>
                         <p>
-                            <img style={{width:'13px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="/flaticon_img/telephone.png"/>
+                            <img style={{width:'13px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="/https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/telephone.png"/>
                         </p>
                         <p className={styled1.companyContent} >
                             02-561-1911
@@ -94,7 +94,7 @@ const Y4J_contact = () => {
                 <div className={styled1.global} style={{paddingLeft: '25px', paddingBottom:'20px'}}>
                     <div style={{display:'flex',padding:'7px 0'}}>
                         <p>
-                            <img style={{width:'12px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="/flaticon_img/map.png"/>
+                            <img style={{width:'12px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/map.png"/>
                         </p>
                         <p style={{fontFamily:'Noto Sans KR, sans-serif'}}>
                             <p style={{fontWeight:'630', color:'black', fontSize:'17px'}}>
@@ -107,7 +107,7 @@ const Y4J_contact = () => {
                     {/* 일본 전화번호 */}
                      <p style={{marginTop:'10px',fontFamily:'Noto Sans KR, sans-serif'}}>
                       <p>
-                        </p><img style={{width:'12px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="/flaticon_img/telephone.png"/>
+                        </p><img style={{width:'12px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/telephone.png"/>
                         +81-03-9697-9395
                     </p>
                     
@@ -115,7 +115,7 @@ const Y4J_contact = () => {
                 <div  className={styled1.global} style={{padding:'5px 0', paddingLeft:'15px'}}>
                     <div style={{display:'flex'}}>
                         <p>
-                          <img style={{width:'12px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="/flaticon_img/map.png"/>
+                          <img style={{width:'12px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/map.png"/>
                          </p>
                          <p style={{fontFamily:'Noto Sans KR, sans-serif'}}>
                              <p style={{fontWeight:'630', color:'black', fontSize:'17px'}}>CHINA (BEIJING)</p>
@@ -129,7 +129,7 @@ const Y4J_contact = () => {
                     <div>
                     {/* 중국 전화번호 */}
                         <p style={{marginTop:'10px', display:'flex'}}>
-                            <p><img style={{width:'13px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="/flaticon_img/telephone.png"/></p>
+                            <p><img style={{width:'13px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/telephone.png"/></p>
                             <p style={{fontFamily:'Noto Sans KR, sans-serif'}}>
                              +86-10-8459-9463<br/>
                              +86-10-8459-9289<br/>
