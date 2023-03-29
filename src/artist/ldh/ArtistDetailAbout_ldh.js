@@ -94,7 +94,7 @@ const ArtistDetailAbout_ldh= () => {
                
             </div>
             {/* 시대의 청개구리 이도현 */}
-            <div style={{display:'flex', marginTop:'30px', flexDirection:'column', marginBottom:'60px'}}>
+            <div style={{display:'flex', marginTop:'30px', flexDirection:'column', marginBottom:'60px', margin: '0 auto'}}>
                 <div style={{display:'flex', marginTop:'60px', flexDirection:'row'}}>
                     <div style={{display:'flex', flexDirection:'column'}}>
                         <img style={{width:'630px', height:'410px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun_sexy.gif"/>

@@ -6,6 +6,7 @@
 .container {
     width: 1200px;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 .schedule_wrap {
@@ -24,8 +25,8 @@
 
 .schedule_wrap .n_right .title {
     font-family: 'Roboto Slab', serif;
-    font-size: 50px;
-    margin-left: 280px;
+    font-size: 43px;
+    margin-left: 320px;
     padding-left: 50px;
     color: #3f3f3f;
     box-shadow: inset 0 -20px 0 #bfffa1;

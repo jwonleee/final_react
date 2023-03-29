@@ -92,13 +92,13 @@ const ArtistList = () => {
 
     return (
         <>
-            <div style={{marginTop:'59px', display:'flex',flexDirection:'column',justifyContent:'center', alignItems:'center'}}>
+            <div style={{marginTop:'60px', margin: '0 auto', display:'flex',flexDirection:'column',justifyContent:'center', alignItems:'center'}}>
                 
                 {/* 뉴진스 */}
                 <div className={styled1.newPicture} /*style={{backgroundColor:'rgba(185, 224, 250, 0.216)'}}*/>
                     <div className={styled1.artistImg3} >
                         <div>
-                            <div style={{padding: '0 15px', width:'820px', height:'500px'}}  >
+                            <div style={{width:'820px', height:'500px'}}  >
                                 <Link to='/artist/nj/artistDetail_newjeans/main_nj'>
                                     <img style={{width:'820px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/newjeans_all.jpeg"/>
                             <div className={styled1.artistNameBox3}>
@@ -121,7 +121,7 @@ const ArtistList = () => {
                 </div>
                 <div className={styled1.newPicture} /*style={{backgroundColor:'rgba(252, 216, 164, 0.216)'}}*/>
                     <div className={styled1.artistImg3} >
-                        <div style={{padding: '0 15px',width:'820px', height:'500px'}}  >
+                        <div style={{width:'820px', height:'500px'}}  >
                             <Link to='/artist/ive/artistDetail_ive/main_ive'>
                                 <img style={{width:'820px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/ive_all.jpeg"/>
                         <div className={styled1.artistNameBox3}>
@@ -133,7 +133,7 @@ const ArtistList = () => {
                         </div>
                     </div>
                         {/* 개인사진list*/}
-                        <div style={{marginTop:'30px',display:'flex', justifyContent:'center', alignItems:'center', flexDirection:'column'}}>
+                        <div style={{marginTop:'30px',display:'flex', justifyContent:'center', alignItems:'center', flexDirection:'column', objectFit: 'cover'}}>
                          
                                 <div >
                                     {newMember1}
@@ -151,7 +151,7 @@ const ArtistList = () => {
                 {/* 블랙핑크 */}
                 <div className={styled1.newPicture} /*style={{backgroundColor:'rgba(188, 184, 206, 0.122)'}}*/>
                     <div className={styled1.artistImg3} >
-                        <div style={{padding: '0 15px', width:'820px', height:'500px'}}  >
+                        <div style={{width:'820px', height:'500px'}}  >
                             <Link to='/artist/bp/artistDetail_Bp/mainBp'>
                                 <img style={{width:'820px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/blackpink_all.jpeg"/>
                         <div className={styled1.artistNameBox3}>
@@ -171,7 +171,7 @@ const ArtistList = () => {
                 {/* 배우 */}
                 <div className={styled1.newPicture} >
                     <div className={styled1.artistImg1} >
-                        <div style={{padding: '0 15px', width:'800px', height:'500px'}}  >
+                        <div style={{width:'800px', height:'500px'}}  >
                             <Link to='/artist/ldh/artistDetail_ldh/main_ldh'>
                                 <img style={{width:'800px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/leedohyun.jpg"/>
                         <div className={styled1.artistNameBox1}>
@@ -185,7 +185,7 @@ const ArtistList = () => {
                 </div>
                 <div className={styled1.newPicture} >
                     <div className={styled1.artistImg1} >
-                        <div style={{padding: '0 15px', width:'800px', height:'500px'}}  >
+                        <div style={{width:'800px', height:'500px'}}  >
                             <Link to='/artist/csb/artistDetail_csb/main_csb'>
                                 <img style={{width:'800px', height:'500px', boxShadow: '2px 2px 10px 0.4px rgba(128, 128, 128, 0.642)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin.jpg"/>
                         <div className={styled1.artistNameBox1}>

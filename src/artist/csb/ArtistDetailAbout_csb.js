@@ -6,7 +6,7 @@ const ArtistDetailAbout_csb= () => {
 
     return(
         <>
-            <div style={{overflow:'hidden', marginTop:'100px'}}>
+            <div style={{overflow:'hidden', marginTop:'100px', marginLeft: '250px'}}>
                 <div style={{float:'left', marginLeft:'50px'}}>
                     <img style={{width:'455px', height:'455px', boxShadow:'2px 6px 9px 0px rgb(0 0 0 / 25%)'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/chaesoobin_profile2.jpeg"></img>
                     <div style={{fontFamily:'Noto Sans KR, sans-serif', fontSize:'18px', marginTop:'20px', lineHeight:'30px'}}>

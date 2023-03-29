@@ -59,7 +59,7 @@ const Y4J_contact = () => {
 
                     <div style={{display:'flex', flexDirection:'row'}}>
                         <p>
-                            <img style={{width:'13px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="/https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/telephone.png"/>
+                            <img style={{width:'13px', height:'14px', marginRight:'10px', paddingTop:'1px'}} src="https://jafp.s3.ap-northeast-2.amazonaws.com/y4j/telephone.png"/>
                         </p>
                         <p className={styled1.companyContent} >
                             02-561-1911
