@@ -8,7 +8,7 @@ const ArtistHome = () => {
         <section style={{marginTop:'140px'}}>
             <div className={styled.artistTab} >
                 <h3 className={styled.artistTitle}>Artist</h3>
-                <ul className={styled.artistCotent}   >
+                <ul className={styled.artistCotent}>
                     <Link to='/artist/artistList'><li>ALL</li></Link>
                     <Link to='/artist/musicianList'><li>MUSICIAN</li></Link>
                     <Link to='/artist/actorList'><li>ACTOR</li></Link>

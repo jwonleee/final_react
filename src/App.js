@@ -1,6 +1,7 @@
+import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Router } from 'react-router-dom';
 
 import ArtistHome from './artist/ArtistHome';
 import ArtistList from './artist/ArtistList';
@@ -40,57 +41,57 @@ import ActorList from './artist/ActorList';
 function App() {
 
   return (
-  
+
     <Routes>
+      {/* 회사 소개 페이지 */}
+      <Route path='/tab' element={<Tab />}>
+        <Route path='about' element={<About_Y4J />} />
+        <Route path='history' element={<Y4J_history />} />
+        <Route path='contact' element={<Y4J_contact />} />
+      </Route>
 
-        {/* 회사 소개 페이지 */}
-          <Route path='/tab' element={<Tab/>}/>
-          <Route path='/about' element={<About_Y4J/>}/>
-          <Route path='/history' element={<Y4J_history/>}/>
-          <Route path='/contact' element={<Y4J_contact/>}/>
+      {/* 아티스트 소개 페이지 */}
+      <Route path='/artist' element={<ArtistHome />}>
+        <Route path='artistList' element={<ArtistList />} />
+        <Route path='musicianList' element={<MusicianList />} />
+        <Route path='actorList' element={<ActorList />} />
 
-        {/* 아티스트 소개 페이지   */}
-          <Route path='/artist' element={<ArtistHome/>}>
-            <Route path='/artist/artistList' element={<ArtistList/>}></Route>
-            <Route path='/artist/musicianList' element={<MusicianList/>}></Route>
-            <Route path='/artist/actorList' element={<ActorList/>}></Route>
+        {/* 뉴진스 게시판 */}
+        <Route path='nj/artistDetail_newjeans' element={<ArtistDetail_newjeans />}>
+          <Route path='main_nj' element={<ArtistDetailMain_newjeans />} />
+          <Route path='about_nj' element={<ArtistDetailAbout_nj />} />
+          <Route path='schedule_nj' element={<ArtistDetailSchedule_newjeans />} />
+        </Route>
 
-            {/* 뉴진스 게시판 */}
-              <Route path='/artist/nj/artistDetail_newjeans' element={<ArtistDetail_newjeans/>}>
-                <Route path='/artist/nj/artistDetail_newjeans/main_nj' element={<ArtistDetailMain_newjeans/>}></Route>
-                <Route path='/artist/nj/artistDetail_newjeans/about_nj' element={<ArtistDetailAbout_nj/>}></Route>
-                <Route path='/artist/nj/artistDetail_newjeans/schedule_nj' element={<ArtistDetailSchedule_newjeans/>}></Route>
-              </Route>
+        {/* 블핑 게시판 */}
+        <Route path='bp/artistDetail_Bp' element={<ArtistDetail_Bp />}>
+          <Route path='mainBp' element={<ArtistDetailMain_Bp />} />
+          <Route path='aboutBp' element={<ArtistDetailAbout_Bp />} />
+          <Route path='scheduleBp' element={<ArtistDetailSchedule_Bp />} />
+        </Route>
 
-            {/* 블핑 게시판 */}
-              <Route path='/artist/bp/artistDetail_Bp' element={<ArtistDetail_Bp/>}>
-                <Route path='/artist/bp/artistDetail_Bp/mainBp' element={<ArtistDetailMain_Bp/>}></Route>
-                <Route path='/artist/bp/artistDetail_Bp/aboutBp' element={<ArtistDetailAbout_Bp/>}></Route>
-                <Route path='/artist/bp/artistDetail_Bp/scheduleBp' element={<ArtistDetailSchedule_Bp/>}></Route> 
-              </Route>
+        {/* 아이브 게시판 */}
+        <Route path='ive/artistDetail_ive' element={<ArtistDetail_ive />}>
+          <Route path='main_ive' element={<ArtistDetailMain_ive />} />
+          <Route path='about_ive' element={<ArtistDetailAbout_ive />} />
+          <Route path='schedule_ive' element={<ArtistDetailSchedule_ive />} />
+        </Route>
 
-            {/* 아이브 게시판 */}
-              <Route path='/artist/ive/artistDetail_ive' element={<ArtistDetail_ive/>}>
-                <Route path='/artist/ive/artistDetail_ive/main_ive' element={<ArtistDetailMain_ive/>}></Route>
-                <Route path='/artist/ive/artistDetail_ive/about_ive' element={<ArtistDetailAbout_ive/>}></Route>
-                <Route path='/artist/ive/artistDetail_ive/schedule_ive' element={<ArtistDetailSchedule_ive/>}></Route>
-              </Route>
-     
-            {/* 이도현 게시판 */}
-              <Route path='/artist/ldh/artistDetail_ldh' element={<ArtistDetail_ldh/>}>
-                <Route path='/artist/ldh/artistDetail_ldh/main_ldh' element={<ArtistDetailMain_ldh/>}></Route>    
-                <Route path='/artist/ldh/artistDetail_ldh/about_ldh' element={<ArtistDetailAbout_ldh/>}></Route>
-                <Route path='/artist/ldh/artistDetail_ldh/schedule_ldh' element={<ArtistDetailSchedule_ldh/>}></Route>
-              </Route>
+        {/* 이도현 게시판 */}
+        <Route path='ldh/artistDetail_ldh' element={<ArtistDetail_ldh />}>
+          <Route path='main_ldh' element={<ArtistDetailMain_ldh />} />
+          <Route path='about_ldh' element={<ArtistDetailAbout_ldh />} />
+          <Route path='schedule_ldh' element={<ArtistDetailSchedule_ldh />} />
+        </Route>
 
-            {/* 채수빈 게시판 */}
-              <Route path='/artist/csb/artistDetail_csb' element={<ArtistDetail_csb/>}>
-                <Route path='/artist/csb/artistDetail_csb/main_csb' element={<ArtistDetailMain_csb/>}></Route>
-                <Route path='/artist/csb/artistDetail_csb/about_csb' element={<ArtistDetailAbout_csb/>}></Route>
-                <Route path='/artist/csb/artistDetail_csb/schedule_csb' element={<ArtistDetailSchedule_csb/>}></Route>
-              </Route>
+        {/* 채수빈 게시판 */}
+        <Route path='csb/artistDetail_csb' element={<ArtistDetail_csb />}>
+          <Route path='main_csb' element={<ArtistDetailMain_csb />} />
+          <Route path='about_csb' element={<ArtistDetailAbout_csb />} />
+          <Route path='schedule_csb' element={<ArtistDetailSchedule_csb />} />
+        </Route>
 
-        </Route> {/* 아티스트 리스트 끝 */}
+      </Route> {/* 아티스트 페이지 끝 */}
 
     </Routes>
 

@@ -11,7 +11,6 @@ const About_Y4J = () => {
 
     return(
         <Fragment>
-          <Tab/>
             
             {/* Y4J 로고 넣기 */}
             <div className={styled.logo}>

@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import styled1 from './css/Tab.module.css';
 
 const Tab = () => {
@@ -12,10 +12,11 @@ const Tab = () => {
             </div>
             <div className={styled1.company_tab}>
                 <ul>
-                    <Link to={'/about'}><li>ABOUT</li></Link>
-                    <Link to={'/history'}><li>HISTORY</li></Link>
-                    <Link to={'/contact'}><li>CONTACT</li></Link>
+                    <Link to={'/tab/about'}><li>ABOUT</li></Link>
+                    <Link to={'/tab/history'}><li>HISTORY</li></Link>
+                    <Link to={'/tab/contact'}><li>CONTACT</li></Link>
                 </ul>
+                <Outlet/>
             </div>
         </Fragment>
     )

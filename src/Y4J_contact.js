@@ -33,7 +33,6 @@ const Y4J_contact = () => {
 
     return(
         <Fragment>
-            <Tab/>
             <div className={styled1.addressBox}>
                 <div className={styled1.addressWrap} style={{marginTop:'70px', marginBottom:'50px'}}>
 

@@ -9,7 +9,6 @@ const Y4J_history = () => {
 
     return(
         <Fragment>
-            <Tab/>
 
             <div className={styled2.historyTitle}>
                 <p>history</p>
