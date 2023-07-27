@@ -1,5 +1,4 @@
 import { Fragment } from 'react';
-import { Link } from 'react-router-dom';
 import styled from './css/About_Y4J.module.css';
 import Tab from './Tab';
 
